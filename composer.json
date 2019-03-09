@@ -24,7 +24,7 @@
                 "DevelMe\\Hashids\\Providers\\HashidsServiceProvider"
             ],
             "aliases": {
-                "Hashids": "DevelMe\\Hashids\\Facades\Hashids"
+                "Hashids": "DevelMe\\Hashids\\Facades\\Hashids"
             }
         }
     }
