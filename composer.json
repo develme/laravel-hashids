@@ -24,7 +24,7 @@
                 "DevelMe\\Hashids\\Providers\\HashidsServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+                "Hashids": "DevelMe\\Hashids\\Facades\Hashids"
             }
         }
     }
