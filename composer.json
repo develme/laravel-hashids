@@ -1,0 +1,31 @@
+{
+    "name": "develme/laravel-hashids",
+    "description": "Take advantage of hashids/hashids by ivanakimov to generate short, unique, non-sequential ids (like YouTube and Bitly) from numbers.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verron Knowles",
+            "email": "Verron.Knowles@develme.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DevelMe\\Hashids\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "hashids/hashids": "^3.0@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevelMe\\Hashids\\Providers\\HashidsServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    },
+}
